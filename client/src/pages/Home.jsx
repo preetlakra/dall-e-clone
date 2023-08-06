@@ -18,7 +18,7 @@ const Home = () => {
   const [Loading, setLoading] = useState(false);
   const [allPosts, setAllPosts] = useState(null);
 
-  const [searchText, setSearchText] = useState(" ")
+  const [searchText, setSearchText] = useState(" ");
 
   return (
     <section className='mac-w-7xl mc-auto'>
