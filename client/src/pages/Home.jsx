@@ -36,7 +36,6 @@ const Home = () => {
         {Loading ?(
           <div className="flex justify-center items-center">
             <Loader />
-
           </div>
         ) : (
           <>

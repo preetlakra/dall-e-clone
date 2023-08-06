@@ -10,9 +10,9 @@ const CreatePost = () => {
   const navigate = useNavigate();
 
   const [form, setForm] = useState({
-    name:" ",
-    promt:" ",
-    photo: " ",
+    name:"",
+    prompt:"",
+    photo:"",
   });
 
   const [generatingImg, setGeneratingImg] = useState(false);
@@ -35,7 +35,7 @@ const CreatePost = () => {
        <div>
         <h1 className=" font-extrabold text-[#222328] text-[32px]">
           Create</h1>
-          <p className='mt-2 text-[#666e75] text-[16px] max-w-[500px]'>Create imagninative and visually stunnuing images through DALL-E AI and share them with the Community</p>
+          <p className='mt-2 text-[#666e75] text-[16px] max-w-[500px]'>Generate an imagninative images through DALL-E AI and share it with the Community</p>
       </div>
 
     <form className='mt-16 max-w-3xl' onSubmit={handleSubmit}>
@@ -45,13 +45,13 @@ const CreatePost = () => {
           LabelName="Your name"
           type="text"
           name="name"
-          placeholder="John Doe"
+          placeholder="Ex.. John Doe"
           value={form.name}
           handleChange={handleChange}
 
         />
         <FormField 
-          LabelName="Your name"
+          LabelName="prompt"
           type="text"
           name="prompt"
           placeholder="A realisitc photograph of a young woman with blue eyes and blonde hair"
@@ -59,7 +59,6 @@ const CreatePost = () => {
           handleChange={handleChange}
           isSupriseMe
           handleSurpriseMe={handleSurpriseMe}
-
         />
 
       </div>
