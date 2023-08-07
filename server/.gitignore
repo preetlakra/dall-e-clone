@@ -1,3 +1,6 @@
+node_modules
+.env
+
 OPENAI_API_KEY="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"
 
 MONGODB_URL="mongodb+srv://lakraaman007:amanlakra01@cluster0.1amg0q2.mongodb.net/?retryWrites=true&w=majority"
