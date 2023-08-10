@@ -1,1 +1,1 @@
-###### sorry it doesn't have paid openai api 
+###### sorry this project doesn't have a paid openai api key :(
